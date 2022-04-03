@@ -4,10 +4,10 @@ package com.saltimure.app.events;
  * @author saltimure
  * abstract class that contains event types declared in enum
  */
-abstract class Event {
+public abstract class Event {
     
     //event types
-    enum Type { 
+    public enum Type { 
         MOUSE_PRESSED,
         MOUSE_RELEASED,
         MOUSE_MOVED
